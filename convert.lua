@@ -250,4 +250,4 @@ for Index, Value in pairs(string_split(LuaC_code, "\n")) do
 	end)
 end 
 
-print(Lua_code)
+print("--; Converted from LuaC to Lua using Dimenzia™", Lua_code)
